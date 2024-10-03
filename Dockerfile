@@ -24,3 +24,4 @@ CMD [ "serve", "-s", "build" ]
 FROM ubuntu:latest
 CMD ["echo", "'It worked!'"]
 docker build -t test-dockerfile .
+docker build -t <name> <test-dockerfile> .
