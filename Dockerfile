@@ -23,3 +23,4 @@ EXPOSE 3000
 CMD [ "serve", "-s", "build" ]
 FROM ubuntu:latest
 CMD ["echo", "'It worked!'"]
+docker build -t test-dockerfile .
